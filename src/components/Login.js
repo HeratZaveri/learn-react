@@ -15,6 +15,7 @@ class Login extends Component {
         this.handleSignIn = this.handleSignIn.bind(this)
     }
     handleInput = (event) => {
+        event.preventDefault()
         this.setState({
             [event.target.name]: event.target.value
         })
