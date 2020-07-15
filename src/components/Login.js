@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './myStyles.css'
+import {Button} from '@material-ui/core'
 
 class Login extends Component {
     constructor(props){
@@ -41,7 +42,7 @@ class Login extends Component {
                         name='password'
                         onChange={this.handleInput}
                     /><br></br><br></br>
-                    <button type="button" onClick={this.handleSignIn}>Sign In</button>
+                    <Button variant='contained' size='medium' onClick={this.handleSignIn}>Sign In</Button>
                 </form>
             </div>
         )
