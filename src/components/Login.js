@@ -24,6 +24,7 @@ class Login extends Component {
         alert(`${this.state.username} ${this.state.password}`)
         event.preventDefault()
     }
+    a
     render() {
         return (
             <div className='container'>
@@ -34,6 +35,8 @@ class Login extends Component {
                         value={this.state.username}
                         name='username'
                         onChange={this.handleInput}
+                        placeholder='Username'
+                        className='username'
                     />
                     <br></br><br></br>
                     <label htmlFor='password'>Password</label><br></br>
@@ -42,6 +45,8 @@ class Login extends Component {
                         value={this.state.password}
                         name='password'
                         onChange={this.handleInput}
+                        placeholder='Password'
+                        className='passsword'
                     /><br></br><br></br>
                     <Button variant='contained' size='medium' onClick={this.handleSignIn}>Sign In</Button>
                 </form>
