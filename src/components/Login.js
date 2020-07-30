@@ -48,7 +48,7 @@ class Login extends Component {
                         placeholder='Password'
                         className='passsword'
                     /><br></br><br></br>
-                    <Button variant='contained' size='medium' onClick={this.handleSignIn}>Sign In</Button>
+                    <Button variant='contained' size='medium' color='primary' onClick={this.handleSignIn}>Sign In</Button>
                 </form>
             </div>
         )

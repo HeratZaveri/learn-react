@@ -23,7 +23,6 @@ nav{
     border-radius: 15px;
     box-shadow: 1px 1px 5px 1px #555353;
     background-color: white;
-    opacity: 0.9;
 }
 .container{
     display: flex;

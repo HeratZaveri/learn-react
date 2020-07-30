@@ -5,7 +5,7 @@ import './App.css';
 //import Greet from './components/Greet'
 //import SignIn from './components/SignIn'
 //import Counter from './components/Counter'
-import HomePage from './components/HomePage'
+//import HomePage from './components/HomePage'
 import Login from './components/Login';
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
         {/*<Greet />*/}
         {/*<SignIn />*/}
         {/*<Counter />*/}
-        <HomePage />
+        {/*<HomePage />*/}
         <Login />
       </div>
     );
